@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(133, 37, 241);
+}
+
+.bg-custom {
+    background-color: var(--primary-color);
+}
+
+.text-white-custom {
+    color: #fff;
+}
+
+.btn-custom {
+    background-color: springgreen;
+}
+
+.btn-custom-dark {
+    background-color: black;
+}
+
+.btn-custom-dark:hover {
+    background-color: rgb(211, 8, 52);
+}
+
+.btn-custom:hover {
+    background-color: rgb(8, 153, 80);
+    color: white;
+}
+
+.form-custom,
+.form-custom:focus {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    outline: none;
+    color: #fff;
+}
+
+.form-custom::placeholder {
+    /* color: #e4e4e4; */
+    color: black;
+}
+
+.green::placeholder {
+    color: springgreen;
+}
