@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6018f8bfdef6490810b20a3c
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Harun Akintunde",
+    "subscribedToChannel": "BMY"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/6018f8bfdef6490810b20a3c
+
+###
+PATCH  http://localhost:3000/subscribers/601901e8aa9df7309c2af824
+Content-Type: application/json
+
+{
+    "name": "Jamiu Keshinro",
+    "subscribedToChannel": "BMY"
+}
